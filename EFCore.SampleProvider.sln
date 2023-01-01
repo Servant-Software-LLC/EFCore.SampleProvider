@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.SampleProvider", "sr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.SampleProvider.FunctionalTests", "test\EFCore.SampleProvider.FunctionalTests\EFCore.SampleProvider.FunctionalTests.csproj", "{BF17025D-1EE1-43A5-89F4-90AD0FE024B2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.Relational.Specification.Tests", "..\Samples\efcore\test\EFCore.Relational.Specification.Tests\EFCore.Relational.Specification.Tests.csproj", "{974B2D5A-5EBD-4923-9762-F39D83DB269C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{BF17025D-1EE1-43A5-89F4-90AD0FE024B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF17025D-1EE1-43A5-89F4-90AD0FE024B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF17025D-1EE1-43A5-89F4-90AD0FE024B2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{974B2D5A-5EBD-4923-9762-F39D83DB269C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{974B2D5A-5EBD-4923-9762-F39D83DB269C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{974B2D5A-5EBD-4923-9762-F39D83DB269C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{974B2D5A-5EBD-4923-9762-F39D83DB269C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
