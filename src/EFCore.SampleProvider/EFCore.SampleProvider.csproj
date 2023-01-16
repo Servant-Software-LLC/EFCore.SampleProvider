@@ -7,7 +7,28 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.1" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.1" />
+
+	  <!--	  
+	  <Reference Include="Microsoft.EntityFrameworkCore">
+	    <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Relational\Debug\net6.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.EntityFrameworkCore.Abstractions">
+	    <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Relational\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.EntityFrameworkCore.Relational">
+	    <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Relational\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.EntityFrameworkCore.Sqlite">
+		  <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Sqlite.Core\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.Extensions.Caching.Abstractions">
+	    <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Specification.Tests\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+	    <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Specification.Tests\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+	  </Reference>
+		-->
   </ItemGroup>
 
 </Project>

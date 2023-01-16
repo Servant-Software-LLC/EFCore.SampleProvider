@@ -22,7 +22,8 @@ public static class SampleProviderDbContextOptionsBuilderExtensions
     }
 
     private static SampleProviderOptionsExtension GetOrCreateExtension(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.Options.FindExtension<SampleProviderOptionsExtension>() ?? new SampleProviderOptionsExtension();
+        => optionsBuilder.Options.FindExtension<SampleProviderOptionsExtension>()
+               ?? (SampleProviderOptionsExtension)new SampleProviderOptionsExtension().WithConnectionString("Filename=:memory:");
 
     private static void ConfigureWarnings(DbContextOptionsBuilder optionsBuilder)
     {

@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Infrastructure;
+﻿using EFCore.SampleProvider.Extensions;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace EFCore.SampleProvider.Infrastructure.Internal;
@@ -7,7 +8,10 @@ public class SampleProviderOptionsExtension : RelationalOptionsExtension
 {
     private DbContextOptionsExtensionInfo? _info;
 
-    public SampleProviderOptionsExtension() { }
+    public SampleProviderOptionsExtension() 
+    {
+    }
+
     public SampleProviderOptionsExtension(SampleProviderOptionsExtension copyFrom) : base(copyFrom)
     {
         //TODO: Copy all option properties of copyFrom into the properties of this class.
@@ -20,9 +24,7 @@ public class SampleProviderOptionsExtension : RelationalOptionsExtension
     public override DbContextOptionsExtensionInfo Info => _info ??= new ExtensionInfo(this);
 
     public override void ApplyServices(IServiceCollection services)
-    {
-        throw new NotImplementedException();
-    }
+        => services.AddEntityFrameworkSampleProvider();
 
     protected override RelationalOptionsExtension Clone() => new SampleProviderOptionsExtension(this);
 

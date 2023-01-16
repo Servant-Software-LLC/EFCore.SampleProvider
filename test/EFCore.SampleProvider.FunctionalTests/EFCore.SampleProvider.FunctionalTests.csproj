@@ -25,10 +25,53 @@
   </ItemGroup>
 
   <ItemGroup>
-<!--	  
-    <ProjectReference Include="..\..\..\Samples\efcore\test\EFCore.Relational.Specification.Tests\EFCore.Relational.Specification.Tests.csproj" />
+
+	  <!--	  
+	  <Reference Include="Microsoft.EntityFrameworkCore">
+		  <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Relational\Debug\net6.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.EntityFrameworkCore.Abstractions">
+		  <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Relational\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.EntityFrameworkCore.Relational">
+		  <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Relational\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.EntityFrameworkCore.Relational.Specification.Tests">
+	    <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Relational.Specification.Tests\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.Specification.Tests.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.EntityFrameworkCore.Specification.Tests">
+	    <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Relational.Specification.Tests\Debug\net7.0\Microsoft.EntityFrameworkCore.Specification.Tests.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.EntityFrameworkCore.Sqlite">
+		  <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Sqlite.Core\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.Extensions.Caching.Abstractions">
+	    <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Specification.Tests\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.Extensions.Caching.Memory">
+	    <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Specification.Tests\Debug\net7.0\Microsoft.Extensions.Caching.Memory.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+	    <HintPath>bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.Extensions.DependencyInjection">
+	    <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Specification.Tests\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+		  <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Specification.Tests\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.Extensions.Logging">
+	    <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Specification.Tests\Debug\net7.0\Microsoft.Extensions.Logging.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+	    <HintPath>..\..\..\Samples\efcore\artifacts\bin\EFCore.Specification.Tests\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+	  </Reference>
+	  <Reference Include="SQLitePCLRaw.core">
+	    <HintPath>bin\Debug\net6.0\SQLitePCLRaw.core.dll</HintPath>
+	  </Reference>
 -->
-	<ProjectReference Include="..\..\src\EFCore.SampleProvider\EFCore.SampleProvider.csproj" />
+
+	  <ProjectReference Include="..\..\src\EFCore.SampleProvider\EFCore.SampleProvider.csproj" />
   </ItemGroup>
 
 </Project>
